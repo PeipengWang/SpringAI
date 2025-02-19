@@ -1,0 +1,1 @@
+https://github.com/ollama4j/ollama4j/blob/main/docs/docs/apis-generate/generate-with-tools.md
