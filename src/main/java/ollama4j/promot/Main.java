@@ -1,4 +1,4 @@
-package com.example.demo.promot;
+package ollama4j.promot;
 
 import io.github.ollama4j.OllamaAPI;
 import io.github.ollama4j.models.response.OllamaResult;

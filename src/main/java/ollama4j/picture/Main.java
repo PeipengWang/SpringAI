@@ -1,4 +1,4 @@
-package com.example.demo.picture;
+package ollama4j.picture;
 
 import io.github.ollama4j.OllamaAPI;
 import io.github.ollama4j.exceptions.OllamaBaseException;
@@ -9,7 +9,6 @@ import io.github.ollama4j.utils.OptionsBuilder;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.Arrays;
-import java.util.List;
 
 public class Main {
 

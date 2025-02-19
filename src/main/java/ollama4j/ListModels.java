@@ -1,4 +1,4 @@
-package com.example.demo;
+package ollama4j;
 
 import io.github.ollama4j.OllamaAPI;
 import io.github.ollama4j.exceptions.OllamaBaseException;

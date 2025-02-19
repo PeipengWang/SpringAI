@@ -1,14 +1,17 @@
-package com.example.demo.role;
+package ollama4j.role;
 
 import io.github.ollama4j.OllamaAPI;
 import io.github.ollama4j.models.chat.OllamaChatMessageRole;
 
-public class addRole {
+import java.util.List;
+
+public class listRole {
 
     public static void main(String[] args) {
         String host = "http://localhost:11434/";
         OllamaAPI ollamaAPI = new OllamaAPI(host);
 
-        OllamaChatMessageRole customRole = ollamaAPI.addCustomRole("custom-role");
+        List<OllamaChatMessageRole> roles = ollamaAPI.listRoles();
+        System.out.println(roles);
     }
 }

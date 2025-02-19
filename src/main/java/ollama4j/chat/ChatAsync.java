@@ -1,8 +1,7 @@
-package com.example.demo.chat;
+package ollama4j.chat;
 
 import io.github.ollama4j.OllamaAPI;
 import io.github.ollama4j.models.response.OllamaAsyncResultStreamer;
-import io.github.ollama4j.types.OllamaModelType;
 
 public class ChatAsync {
 

@@ -1,4 +1,4 @@
-package com.example.demo.role;
+package ollama4j.role;
 
 import io.github.ollama4j.OllamaAPI;
 import io.github.ollama4j.exceptions.RoleNotFoundException;

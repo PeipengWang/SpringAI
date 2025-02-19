@@ -1,4 +1,4 @@
-package com.example.demo.chat;
+package ollama4j.chat;
 
 import io.github.ollama4j.OllamaAPI;
 import io.github.ollama4j.exceptions.OllamaBaseException;
@@ -6,7 +6,6 @@ import io.github.ollama4j.models.chat.OllamaChatMessageRole;
 import io.github.ollama4j.models.chat.OllamaChatRequestBuilder;
 import io.github.ollama4j.models.chat.OllamaChatRequest;
 import io.github.ollama4j.models.chat.OllamaChatResult;
-import io.github.ollama4j.types.OllamaModelType;
 
 import java.io.IOException;
 
